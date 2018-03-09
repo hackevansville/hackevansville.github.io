@@ -114,3 +114,10 @@ a.logo:link, a.logo:visited {
 	background-color: #ff9007;
 	color: rgba(0, 75, 106, 1);
 }
+
+.hamburger {
+	margin-top: -9px;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-weight: bold;
+}
