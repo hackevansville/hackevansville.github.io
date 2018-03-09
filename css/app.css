@@ -137,9 +137,7 @@ a.logo:link, a.logo:visited {
 	#siteMain #navbarSupportedContent .nav-item .cta {
 		margin-left: 0;
 	}
-}
 
-@media(max-width: 767px) {
 	#siteMain {
 		height: 60px;
 		margin: 0;
