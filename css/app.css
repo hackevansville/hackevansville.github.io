@@ -13,9 +13,41 @@ body {
   	font-size: 16px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	line-height: 1.3;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.6rem;
+}
+
+h3 {
+	font-size: 2.2rem;
+}
+
+h4 {
+	font-size: 1.8rem;
+}
+
+h5 {
+	font-size: 1.4rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
 #pageHeader {
   	width: 100%;
   	height: 72px;
+  	box-shadow: 0 2px 10px #000000;
 	background-color: #004b6a;
 }
 
@@ -49,7 +81,7 @@ a.logo:link, a.logo:visited {
   	margin-right: 8px;
   	color: #004b6a;
   	font-family: 'Oswald', sans-serif;
-  	font-size: 32px;
+  	font-size: 2rem;
   	font-weight: bold;
   	text-align: center;
 }
@@ -61,14 +93,15 @@ a.logo:link, a.logo:visited {
   	padding: 4px;
   	border-radius: 50%;
   	background-color: #ffffff;
-  	line-height: 32px;
+  	line-height: 2rem;
 }
 
 #siteMain .logoText {
-  	padding-top: 5.6px;
+  	padding-top: 4px;
   	color: #ffffff;
   	font-family: 'Share Tech Mono', monospace;
-  	font-size: 2.4em;
+  	font-size: 2.4rem;
+  	font-weight: normal;
   	letter-spacing: -3px;
 }
 
@@ -121,6 +154,42 @@ a.logo:link, a.logo:visited {
 	margin-top: -9px;
 }
 
+#bannerContainer {
+	margin-top: 74px;
+	padding: 0;
+}
+
+#banner {
+	padding: 0;
+}
+
+#banner .background,
+#banner .parallax-overlay {
+	min-height: 260px;
+	height: 29vw;
+}
+
+#banner .background {
+	box-shadow: 0px 2px 6px #000;
+	background-image: url(../images/EvansvilleSkyline.jpg);
+	background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#banner .parallax-overlay {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: hsla(198, 100%, 45%, 0.5);
+}
+
+#banner #textContainer {
+	color: #ffffff;
+	text-shadow: 1px 1px 3px #000000;
+}
+
 @media(max-width: 991px) {
 
 	#siteMain #navbarSupportedContent {
@@ -162,7 +231,7 @@ a.logo:link, a.logo:visited {
 	}
 
 	#siteMain .logoText {
-		font-size: 2em;
+		font-size: 2rem;
 	}
 
 	#siteMain #navbarSupportedContent {
@@ -171,5 +240,9 @@ a.logo:link, a.logo:visited {
 
 	.hamburger {
 		margin-top: 0;
+	}
+
+	#bannerContainer {
+		margin-top: 51px;
 	}
 }
