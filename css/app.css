@@ -63,18 +63,15 @@ a.logo:link, a.logo:visited {
   	line-height: 32px;
 }
 
-.logoText {
+#siteMain .logoText {
   	padding-top: 5.6px;
+  	color: #ffffff;
   	font-family: 'Share Tech Mono', monospace;
   	font-size: 2.4em;
   	letter-spacing: -3px;
 }
 
-.logoText {
-	color: #ffffff;
-}
-
-.logoText:hover {
+#siteMain .logoText:hover {
 	color: rgba(255, 255, 255, 0.7);
 	text-decoration: underline;
 }
@@ -123,6 +120,7 @@ a.logo:link, a.logo:visited {
 }
 
 @media(max-width: 991px) {
+
 	#siteMain #navbarSupportedContent {
 		margin-top: -4px;
 	}
@@ -138,5 +136,21 @@ a.logo:link, a.logo:visited {
 
 	#siteMain #navbarSupportedContent .nav-item .cta {
 		margin-left: 0;
+	}
+}
+
+@media(max-width: 767px) {
+	#siteMain {
+		height: 60px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#siteMain .logoIcon {
+		display: none;
+	}
+
+	#siteMain .logoText {
+		font-size: 2em;
 	}
 }
