@@ -1,3 +1,19 @@
 /**
  * Site-specific CSS for HackEvansville.org
  */
+
+ /* Google Fonts used:
+  * font-family: 'Oswald', sans-serif;
+  * font-family: 'Lato', sans-serif;
+  * font-family: 'Share Tech Mono', monospace;
+  */
+
+  body {
+  	font-size: 16px;
+  }
+
+  .logo {
+  	font-family: 'Share Tech Mono', monospace;
+  	font-size: 2em;
+  	color: #004b6a;
+  }
