@@ -79,38 +79,38 @@ a.logo:link, a.logo:visited {
 	text-decoration: underline;
 }
 
-#siteMain #navbarLinks {
+#siteMain #navbarSupportedContent {
 	margin-top: -8px;
 }
 
-#siteMain #navbarLinks .nav-item a:link,
-#siteMain #navbarLinks .nav-item a:visited {
+#siteMain #navbarSupportedContent .nav-item a:link,
+#siteMain #navbarSupportedContent .nav-item a:visited {
 	color: #ffffff;
 }
 
-#siteMain #navbarLinks .nav-item:hover {
+#siteMain #navbarSupportedContent .nav-item:hover {
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
-#siteMain #navbarLinks .nav-item:last-of-type:hover {
+#siteMain #navbarSupportedContent .nav-item:last-of-type:hover {
 	background-color: unset;
 }
 
-#siteMain #navbarLinks .nav-item a:hover {
+#siteMain #navbarSupportedContent .nav-item a:hover {
 	color: rgba(255, 255, 255, 0.7);
 }
 
-#siteMain #navbarLinks .nav-item .cta {
+#siteMain #navbarSupportedContent .nav-item .cta {
 	margin-left: 20px;
 	font-weight: bold;
 	border-radius: unset;
 }
 
-#siteMain #navbarLinks .nav-item .cta:link {
+#siteMain #navbarSupportedContent .nav-item .cta:link {
 	color: rgba(0, 75, 106, 0.8);
 }
 
-#siteMain #navbarLinks .nav-item .cta:hover {
+#siteMain #navbarSupportedContent .nav-item .cta:hover {
 	background-color: #ff9007;
 	color: rgba(0, 75, 106, 1);
 }
@@ -120,4 +120,23 @@ a.logo:link, a.logo:visited {
 	border: solid 2px #ffffff;
 	color: #ffffff;
 	font-weight: bold;
+}
+
+@media(max-width: 991px) {
+	#siteMain #navbarSupportedContent {
+		margin-top: -4px;
+	}
+
+	#siteMain #navbarSupportedContent .nav-item {
+		background-color: #0282b7;
+		text-align: center;
+	}
+
+	#siteMain #navbarSupportedContent .nav-item:hover {
+		background-color: rgba(0, 75, 106, 0.8);
+	}
+
+	#siteMain #navbarSupportedContent .nav-item .cta {
+		margin-left: 0;
+	}
 }
