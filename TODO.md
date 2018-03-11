@@ -1,4 +1,4 @@
-= HackEvansville.org TODO
+# HackEvansville.org TODO
 
 - create form for interested parties to register
 - do proper design with an actual defined brand and color scheme
