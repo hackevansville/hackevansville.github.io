@@ -1,6 +1,6 @@
 # HackEvansville.org TODO
 
-- create form for interested parties to register
+- ~~create form for interested parties to register~~
 - do proper design with an actual defined brand and color scheme
 - convert site to Jekyll
 - rebuild with compiled version of Bootstrap
